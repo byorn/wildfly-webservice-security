@@ -1,14 +1,10 @@
 #How to Run
 
 1) mvn clean install on the top level
-2) standalone xml should have:
+2) standalone xml should have the login module defined:
 
 see blog: http://byorn.blogspot.com
-
-login-module code="byorns.com.login.module.DelegationLoginModule" flag="required"
-                            module-option name="password-stacking" value="useFirstPass"
-                      login-module
-                      
+                  
                       
 3) in bin > standalone.bat
 
