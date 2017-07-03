@@ -2,9 +2,11 @@
 
 1) mvn clean install on the top level
 2) standalone xml should have:
+<!--
                         <login-module code="byorns.com.login.module.DelegationLoginModule" flag="required">
                             <module-option name="password-stacking" value="useFirstPass"/>
                         </login-module>
+                        -->
 3) in bin > standalone.bat
 
 #Access the wsdl
